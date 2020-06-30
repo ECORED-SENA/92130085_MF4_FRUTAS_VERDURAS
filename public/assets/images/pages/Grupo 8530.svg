@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="516" viewBox="0 0 456 516">
+  <defs>
+    <filter id="Rectángulo_3164" x="0" y="0" width="456" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3377" x="0" y="73" width="456" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3378" x="0" y="196" width="456" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3379" x="0" y="296" width="456" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3380" x="0" y="369" width="456" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3381" x="0" y="442" width="456" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_8530" data-name="Grupo 8530" transform="translate(-320 -1407)">
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3164)">
+      <rect id="Rectángulo_3164-2" data-name="Rectángulo 3164" width="438" height="56" rx="12" transform="translate(9 6)" fill="#fff57b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3377)">
+      <rect id="Rectángulo_3377-2" data-name="Rectángulo 3377" width="438" height="104" rx="12" transform="translate(9 79)" fill="#dbeb61"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3378)">
+      <rect id="Rectángulo_3378-2" data-name="Rectángulo 3378" width="438" height="82" rx="12" transform="translate(9 202)" fill="#a2ea57"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3379)">
+      <rect id="Rectángulo_3379-2" data-name="Rectángulo 3379" width="438" height="56" rx="12" transform="translate(9 302)" fill="#7cb342"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3380)">
+      <rect id="Rectángulo_3380-2" data-name="Rectángulo 3380" width="438" height="56" rx="12" transform="translate(9 375)" fill="#69d085"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 320, 1407)" filter="url(#Rectángulo_3381)">
+      <rect id="Rectángulo_3381-2" data-name="Rectángulo 3381" width="438" height="56" rx="12" transform="translate(9 448)" fill="#69d0c6"/>
+    </g>
+    <text id="Se_utiliza_para_el_envasado_aséptico_de_alimentos_estériles_tipo_Tetra_Pack_Tetra_Brick_etc." data-name="Se utiliza para el envasado aséptico de alimentos estériles tipo Tetra Pack, Tetra Brick, etc." transform="translate(362 1418)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Se utiliza para el envasado aséptico de alimentos </tspan><tspan x="0" y="39">estériles tipo Tetra Pack, Tetra Brick, etc.</tspan></text>
+    <text id="Está_formado_por_un_laminado_de_las_siguientes_capas:_polietileno_de_baja_densidad_cartón_-_polietileno_de_baja_densidad_aluminio_surlyn_-_polietileno_de_baja_densidad." data-name="Está formado por un laminado de las siguientes capas: polietileno de baja densidad – cartón - polietileno de baja densidad – aluminio –surlyn - polietileno de baja densidad." transform="translate(362 1491)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Está formado por un laminado de las siguientes </tspan><tspan x="0" y="39">capas: polietileno de baja densidad – cartón - </tspan><tspan x="0" y="61">polietileno de baja densidad – aluminio –surlyn - </tspan><tspan x="0" y="83">polietileno de baja densidad.</tspan></text>
+    <text id="Se_presenta_en_rollos_para_formar_el_envase_en_la_misma_línea_de_envasado_o_preformado_y_plegado_para_únicamente_sellarlos_en_la_línea_de_envasado." data-name="Se presenta en rollos para formar el envase en la misma línea de envasado o preformado y plegado para únicamente sellarlos en la línea de envasado." transform="translate(362 1614)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Se presenta en rollos para formar el envase en la </tspan><tspan x="0" y="39">misma línea de envasado o preformado y plegado </tspan><tspan x="0" y="61">para únicamente sellarlos en la línea de envasado.</tspan></text>
+    <text id="Menor_costo_que_los_envases_de_hojalata_y_vidrio." data-name="Menor costo que los envases de hojalata y vidrio." transform="translate(362 1724)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Menor costo que los envases de hojalata y vidrio.</tspan></text>
+    <text id="Vida_de_anaquel_comparable_con_los_demás_envases." data-name="Vida de anaquel comparable con los demás envases." transform="translate(362 1799)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Vida de anaquel comparable con los demás envases.</tspan></text>
+    <text id="Bajo_peso_reduciendo_costos_de_transporte." data-name="Bajo peso, reduciendo costos de transporte." transform="translate(362 1870)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Bajo peso, reduciendo costos de transporte.</tspan></text>
+  </g>
+</svg>

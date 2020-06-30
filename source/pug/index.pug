@@ -1,0 +1,34 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+    body#page-home.theme-ligth.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+
+            .container
+
+                include includes/page-home_topbar.pug
+
+                include includes/page-home_header.pug                
+
+        section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
+
+            .container
+
+                include includes/page-home_resultados.pug  
+
+        section#IndiceTematico.curso-indice-tematico.section
+
+            .container
+
+                include includes/page-home_indice_tematico.pug  
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+        script(src="assets/js/vendor.js")
+        script(src="assets/js/global.js")        
+        script(src="assets/js/pages.js")

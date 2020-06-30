@@ -1,0 +1,452 @@
+include ../mixins/functions
+
++pageHeader('Técnicas de conservación para productos derivados de frutas y hortalizas', 'assets/images/header/header_media.png')
+
+.container#tecnicas
+
+    .row-12
+
+        h1 1. Técnicas de conservación para productos derivados de frutas y hortalizas.
+
+        .brand-line-primary
+
+        .row-12(style="display: flex; flex-wrap: wrap")
+
+            .col-12.col-md-6
+
+                p Las diferentes técnicas para la conservación de derivados de frutas y hortalizas tienen como fin prolongar su vida útil manteniendo en el mayor grado posible, los atributos de calidad como son el color, la textura, el sabor y especialmente el valor nutritivo.
+
+                p La escala de tiempos de conservación lograda puede ir desde tiempos muy cortos al aplicar métodos artesanales de cocción y almacenamiento en frío, hasta períodos muy prolongados, como en el caso de procesos industriales muuy controlados como la conservería, los congelados y los deshidratados.
+
+            .col-12.col-md-6
+
+                p Es importante resaltar que para que las técnicas de conservación sean eficientes se requiere el uso de envases adecuados que mantengan las características de inocuidad lograda y eviten una contaminación posterior.
+
+                p En la siguiente tabla se destacan las principales técnicas de conservación aplicadas a derivados de frutas y hortalizas:
+
+    br
+
+    .row-12(style="background-color: #EBF4E3; border-radius: 10px").p-4
+
+        .col-12
+
+            nav.nav-tab-ecored.my-5
+                #nav-tab.nav.nav-tabs(role='tablist')
+                    a#nav-04-tab.nav-item.nav-link.active(data-toggle='tab', href='#nav-04', role='tab', aria-controls='nav-04', aria-selected='true') 
+                        strong Método de conservación
+                    a#nav-05-tab.nav-item.nav-link(data-toggle='tab', href='#nav-05', role='tab', aria-controls='nav-05', aria-selected='false') 
+                        strong  Refrigeración
+                    a#nav-06-tab.nav-item.nav-link(data-toggle='tab', href='#nav-06', role='tab', aria-controls='nav-06', aria-selected='false') 
+                        strong Congelación
+                    a#nav-07-tab.nav-item.nav-link(data-toggle='tab', href='#nav-07', role='tab', aria-controls='nav-07', aria-selected='false') 
+                        strong Pasteurización
+                    a#nav-08-tab.nav-item.nav-link(data-toggle='tab', href='#nav-08', role='tab', aria-controls='nav-08', aria-selected='false') 
+                        strong Esterilización
+                    a#nav-09-tab.nav-item.nav-link(data-toggle='tab', href='#nav-09', role='tab', aria-controls='nav-09', aria-selected='false') 
+                        strong Deshidratación
+                    a#nav-10-tab.nav-item.nav-link(data-toggle='tab', href='#nav-10', role='tab', aria-controls='nav-10', aria-selected='false') 
+                        strong Conservación por métodos químicos
+                    
+                #nav-tabContent.tab-content
+                    #nav-04.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='nav-04-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Se utilizan bajas temperaturas hasta -1°C.
+                                    li Se usa para productos de consumo fresco (frutas, hortalizas, carnes, etc.).
+                                    li También se utiliza en productos que requieren métodos combinados de conservación como leches pasteurizadas y envasadas, quesos, etc.
+                                    li Los períodos de conservación son relativamente cortos en la mayoría de productos frescos ya que los procesos metabólicos de tejidos vegetales continúan a menor velocidad.
+
+                    #nav-05.tab-pane.fade(role='tabpanel', aria-labelledby='nav-05-tab')
+                        
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Cuando se cosechan, poseen actividad metabólica baja.
+                                    li Con un almacenamiento adecuado su vida útil puede ser larga.
+
+                    #nav-06.tab-pane.fade(role='tabpanel', aria-labelledby='nav-06-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Se utilizan bajas temperaturas desde los -18°C hasta los -25°C.
+                                    li Detiene la actividad enzimática y el desarrollo de microorganismos.
+                                    li Los períodos de conservación son muy largos ya que se detienen los procesos metabólicos de los tejidos vegetales.
+
+                    #nav-07.tab-pane.fade(role='tabpanel', aria-labelledby='nav-07-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Se utilizan altas temperaturas desde los 60°C hasta 99°C por períodos de tiempo que oscilan entre pocos segundos hasta 30-40 minutos.
+                                    li Hay una destrucción parcial de microorganismos, inactivación de enzimas y generalmente no afecta a los microorganismos que generan esporas.
+                                    li Se suele  combinar con otros métodos como la refrigeración y la congelación para mantener la calidad y aumentar la vida útil del producto.
+                                    li Se utiliza en vinos, cervezas, jugos y pulpas de fruta,  conservas ácidas de frutas y hortalizas.
+
+                    #nav-08.tab-pane.fade(role='tabpanel', aria-labelledby='nav-08-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Es un tratamiento térmico más severo que la pasteurización ya que se utilizan temperaturas que van de 100°C a 130°C y períodos de tiempo que oscilan entre 20 minutos hasta algunas horas.
+                                    li Elimina microorganismos patógenos, formadores de esporas y sus esporas.
+                                    li Es el método más usado en la industria de conservas.
+
+                    #nav-09.tab-pane.fade(role='tabpanel', aria-labelledby='nav-09-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Se aplica en alimentos sólidos eliminando parte del agua mediante el secado natural a través del sol,  secado artificial con aire caliente forzado o liofilización.
+                                    li Al no haber agua disponible, no hay desarrollo de microorganismos.
+                                    li Hay pérdida de vitaminas según el proceso aplicado.
+                                    li La humedad residual promedio para asegurar una buena conservación es de 16% para la mayoría de las frutas en azúcar y de 4% para las hortalizas. En la liofilización se congela el producto hasta -30 o -40°C y mediante la aplicación de alto vacío se transforma el hielo en vapor (sublimación); es el método que mejores productos deshidratados brinda, se emplea para productos con colores y sabores delicados como fresas y champiñones, también se emplea para elaborar café instantáneo; tiene un alto costo y un poco uso.
+
+                    #nav-10.tab-pane.fade(role='tabpanel', aria-labelledby='nav-10-tab')
+
+                        .row.my-5.justify-content-center.align-items-center
+
+                            .col-12
+
+                                ul
+                                    li Consiste en la adición de sustancias con el fin de crear condiciones adversas para el crecimiento de microorganismos.
+                                    li Pueden ser conservadores naturales como la sal, el azúcar, el vinagre o el aceite que solo actúan con concentraciones relativamente altas y actúan disminuyendo la actividad de agua (Aw): cantidad de agua disponible para el crecimiento de microorganismos; generalmente su acción se acompaña por procesos térmicos como en el caso de la mermelada o conservas.
+                                    li Adición de sustancias antisépticas que actúan en concentraciones bajas inhibiendo el crecimiento de microorganismos, como el ácido acético, el ácido benzoico, sórbico y sus sales que se utilizan como conservantes.
+                                    li Reductores o antioxidantes como el ácido ascórbico o el butil hidroxitolueno (BHT) que se utilizan para evitar reacciones de pardeamiento oxidativo en algunos alimentos.
+
+    br
+    br
+
+.container#factores
+
+    .row-12
+
+        h2 1.1. Factores importantes para la conservación de derivados de frutas y verduras
+
+        .brand-line-primary
+
+        p La base de la conservación de alimentos es la identificación de los factores causantes de su deterioro y sus características, con el fin de determinar las medidas eficaces para su control o eliminación. 
+
+        p En el caso de las frutas y hortalizas, su alteración, antes, durante y después de su procesamiento es causada principalmente por los siguientes factores:
+    
+    br
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img2.svg", style="width: 90%")
+
+    br
+    br
+    
+    .row-12(style="display: flex; flex-wrap: wrap")
+
+        .col-12.col-md-6
+
+            p La bacteria más importante para el establecimiento de las condiciones de un proceso térmico seguro es Clostridium Botulinum, ya que forma esporas, es anaerobio (crece en ausencia de oxígeno), produce una toxina letal para el ser humano, se desarrolla a pH mayores de 4,5 y es muy resistente al calor y a agentes químicos.
+
+            p El factor ambiental que más fácilmente se puede regular para controlar estos causantes de deterioro es la temperatura; cuyos rangos y tiempos de proceso varían en función del alimento, grado de contaminación y acidez. A nivel industrial, donde la conservación se realiza por medio de la esterilización comercial, deshidratación o congelación, el desarrollo microbiano es controlado obteniendo productos seguros para el consumo.
+
+        .col-12.col-md-6
+
+            p Los diversos métodos de conservación se pueden utilizar en forma independiente o en forma combinada; por ejemplo, para jugos y pulpas de fruta se puede aplicar la pasteurización para la eliminación de microorganismos y complementar con la refrigeración o congelación para su conservación a largo plazo. 
+
+            p Es importante tener en cuenta inicialmente, la composición y estado del producto ya que no todos los métodos son aplicables a todos los alimentos. Por ejemplo, no se puede aplicar la congelación a hortalizas como las lechugas para consumo fresco; también es necesario determinar aquellos que son aplicables a grandes y/o a pequeñas producciones.
+
+            p En la siguiente tabla se describen los diferentes métodos de conservación y su escala de aplicación en frutas y hortalizas:
+    
+    br
+    
+    .row-12
+
+        p.text-center
+            strong Clasificación de los métodos de conservación
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img1.svg", style="width: 90%")
+    
+    br
+    br
+
+.container#almacenamiento
+
+    .row-12
+
+        h2 1.2. Almacenamiento en atmósferas controladas (EAC)
+
+        .brand-line-primary
+
+        p Teniendo en cuenta que las frutas y hortalizas después de su cosecha continúan sus procesos metabólicos produciendo dióxido de carbono y consumiendo oxígeno y que luego de su recolección comienzan sus procesos de deterioro al agotar sus reservas; las nuevas técnicas de almacenamiento se han centrado en la modificación de la composición de la atmósfera con el fin de retrasar dichos procesos degradatorios.
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img3.svg", style="width: 90%")
+        
+        br
+
+        p En la siguiente tabla se describen las condiciones recomendadas para el almacenamiento en atmósferas controladas de las frutas y hortalizas donde se aplica comercialmente este tipo de método:
+
+    .row-12(style="background-color: #EBF4E3; border-radius: 10px").p-4
+
+        .col-12
+
+            p.text-center
+                strong Condiciones de almacenamiento en atmósferas controladas para frutas y hortalizas.
+            
+            br
+
+            .row-12.text-center
+
+                img(src="assets/images/pages/img4.svg", style="width: 80%")
+            
+            br
+
+    br
+    br
+
+.container#envasado
+
+    .row-12
+
+        h2 1.3. Envasado en Atmósferas modificadas (EAM)
+
+        .brand-line-primary
+
+    .row-12(style="background-color: #EBF4E3; border-radius: 10px").p-4
+
+        .col-12
+
+            p La técnica de conservación en atmósferas modificadas consiste en empacar el producto en materiales con barrera a la difusión de gases y reemplazar mediante vacío la atmósfera del interior del producto por una mezcla de gases adecuada donde se reduce el nivel de oxígeno y se aumenta el nivel de dióxido de carbono con los siguientes fines:
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img5.svg", style="width: 80%")
+
+    br
+
+    p De esta manera se alarga la vida útil de los productos manteniendo su calidad.
+
+    p Cuando se envasa el producto, se llevan a cabo dos procesos simultáneos: la respiración del producto y la permeación de los gases a través de la película plástica.
+
+    p El envasado activo, es una tecnología relativamente nueva, cuyos costos son más altos que la EAM normal donde se incorporan ciertos aditivos dentro del envase para modificar la atmósfera y prolongar la vida de almacenamiento del producto, tales como:
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img6.svg", style="width: 80%")
+
+    br
+    br
+
+.container#envases
+
+    .row-12
+
+        h2 1.4. Envases para derivados de frutas y hortalizas
+
+        .brand-line-primary
+
+        p Los alimentos se envasan con los siguientes objetivos:
+    
+    br
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img7.svg", style="width: 80%")
+
+    br
+
+    p Los envases para alimentos deben tener las siguientes características:
+
+    br
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img8.svg", style="width: 80%")
+
+    br
+
+    .row-12.text-center
+
+        img(src="assets/images/pages/img9.svg", style="width: 80%")
+
+    br
+
+    .row-12(style="background-color: #EBF4E3; border-radius: 10px").p-4
+
+        p Los envases rígidos dentro de los cuales están las latas metálicas, los envases de vidrio y de plástico, utilizados para el envasado de productos como frutas en almíbar, conservas de frutas y hortalizas, han sido utilizados tradicionalmente por las siguientes características:
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img10.svg", style="width: 60%")
+
+        p Sin embargo, se han desarrollado nuevos materiales en forma de películas de grosores no  mayores a 0,25 mm, dando origen a envases flexibles que han reemplazado en gran parte a los envases rígidos tradicionales. Sus características son las siguientes:
+
+        p
+            strong Envases flexibles
+
+        p Se adaptan a la forma del contenido, ahorrando costos y espacio de almacenamiento y transporte.
+
+        p Son muy livianos y se pueden termosellar.
+
+        p Pueden adquirirse prefabricados o elaborarse en la línea de la planta de proceso.
+
+        p Se pueden imprimir, ahorrando costos por etiquetado.
+
+        p Se pueden combinar con otros materiales para obtener envases con la resistencia mecánica e impermeabilidad a gases y vapor de agua requeridas.
+
+        p Debido a que utilizan películas delgadas, su costo de fabricación es bajo.
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img11.svg", style="width: 80%")
+
+
+    br
+    br
+
+.container
+
+    .row-12
+
+        h3 1.4.1. Envases metálicos
+
+        .brand-line-primary
+
+        p Son los envases más comunes para alimentos, pueden ser de acero o de aluminio; sus ventajas y desventajas se describen en la siguiente figura:
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img12.svg", style="width: 80%")
+
+        br
+
+        p La mayor parte de los envases metálicos para alimentos y sus tapas poseen un recubrimiento protector interno y algunas veces, externo con el fin de evitar la interacción química con el alimento, proteger la lata de la corrosión por agentes ambientales, mejorar la apariencia de la lata y prolongar la vida útil del producto.
+    
+    br
+
+.container
+
+    .row-12
+
+        h3 1.4.2. Envases de vidrio
+
+        .brand-line-primary
+
+        p Este tipo de envases se ha utilizado desde el inicio del procesamiento térmico, siguen siendo muy utilizados para productos como jugos, frutas en almíbar, mermeladas, salsa de tomate, hortalizas encurtidas, etc.
+
+        p Sus ventajas y desventajas se describen en la siguiente figura:
+
+        br
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img13.svg", style="width: 80%")
+
+    br
+
+.container
+
+    .row-12
+
+        h3 1.4.3. Envases de papel y cartón
+
+        .brand-line-primary
+
+        p Provienen de la pulpa de madera, existen numerosos tipos de papel y cartón de acuerdo al proceso de elaboración, los más utilizados en productos procesados de frutas y hortalizas son:
+
+    br
+
+    .col-12
+
+        p.text-center
+            strong Características de envases de papel para frutas y hortalizas
+        
+        br
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img14.svg", style="width: 80%")
+        
+        br
+
+        p El cartón se fabrica de forma similar al papel, pero su grosor es mucho mayor proporcionándole rigidez y cierta resistencia mecánica. El más utilizado para el envase de derivados de frutas y hortalizas es el cartón laminado que ha reemplazado en gran proporción a los envases metálicos y de vidrio; sus características se describen a continuación:
+
+        br
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img15.svg", style="width: 55%")
+    
+    br
+
+.container
+
+    .row-12
+
+        h3 1.4.4. Envases de plástico
+
+        .brand-line-primary
+
+        p Existe una gran variedad de polímeros o plásticos que se emplean solos o en combinación con otros materiales, obteniéndose diversos tipos de envases rígidos, semirrígidos y flexibles. Sus principales características son:
+
+        ul
+            li Poseen un bajo costo.
+            li Poseen un bajo peso, reduciendo costos de transporte y distribución.
+            li Alta resistencia a la corrosión.
+            li Versatilidad en formas y tamaños.
+            li Son irrompibles.
+            li Poseen alta resistencia a factores mecánicos como tensión, corte o punciones.
+        
+        p Entre los materiales plásticos más utilizados en la fabricación de envases están:
+
+    .col-12
+
+        p.text-center
+            strong Características de los plásticos para derivados de frutas y hortalizas.
+
+        .row-12.text-center
+
+            img(src="assets/images/pages/img16.svg", style="width: 80%")
+
+.container
+
+    .row-12
+
+        h3 1.4.5. Envases combinados
+
+        .brand-line-primary
+
+        p Con el fin de aprovechar las propiedades particulares de los materiales de envase y eliminar o reducir sus deficiencias, es común, combinar dos o más materiales para la elaboración de envases que generalmente son flexibles y se obtienen mediante películas recubiertas, películas laminadas o películas coextruidas.
+
+        p En derivados de frutas y hortalizas se utilizan películas laminadas y coextruidas cuyas características se describen a continuación:
+
+        br
+
+        hr(style="border: solid 2px; color: #7CB342")
+
+        p
+         strong Películas laminadas
+
+        p Mejoran el aspecto, su impermeabilidad y/o resistencia mecánica.
+
+        p Se obtienen por adhesión de cada lámina que compone el envase.
+
+        p Para frutas secas y hortalizas congeladas se utilizan laminados formados por: Cloruro de polivinilideno – polipropileno recubierto de polietileno de baja densidad (del interior al exterior del envase).
+
+        p Para hortalizas deshidratadas, se utilizan laminados formados por: polietileno de baja densidad – aluminio – papel.
+
+        hr(style="border: solid 2px; color: #7CB342")

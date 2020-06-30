@@ -1,0 +1,37 @@
+[
+    {
+        "icon": "fa fa-download",
+        "slug": "pdf",
+        "title": "Descargar PDF",
+        "path": "media/documentos/MF2_material4.pdf"
+    },
+    {
+        "icon": "icon glosario",
+        "slug": "glosario",
+        "title": "Glosario",
+        "breadcrumb": ["Glosario"],
+        "path": "config/glosario.json"
+    },
+    {
+        "icon": "fa fa-folder-open-o",
+        "slug": "material-complementario",
+        "title": "Material complementario",
+        "path": "pages/material-complementario.html"
+    },
+    {
+        "icon": "icon referencias",
+        "slug": "referencias",
+        "title": "Referencias bibliográficas",
+        "breadcrumb": ["Referencias bibliográficas"],
+        "path": "pages/referencias.html"
+    },
+    {
+        "icon": "fa fa-copyright",
+        "slug": "creditos",
+        "title": "Créditos",
+        "breadcrumb": [
+            "Créditos"
+        ],
+        "path": "pages/creditos.html"
+    }    
+]

@@ -1,0 +1,158 @@
+mixin pageHeader(tituloTema, srcImagen)
+    .page-header.theme-light.mb-5
+
+        .container
+
+            .row.align-items-center
+
+                .col-12.col-lg-6
+
+                    h3#curso-titulo-componente.curso-subtitulo Técnicas de conservación para productos derivados de frutas y hortalizas.
+                    h1#curso-titulo-tema.curso-titulo= tituloTema
+
+                    .brand-line-primary
+
+                    .keywords
+                        span.badge.badge-pill.badge-light.mr-2 #Ecológica
+                        span.badge.badge-pill.badge-light.mr-2 #Orgánica
+                        span.badge.badge-pill.badge-light.mr-2 #Resoluciones
+
+                .col-12.col-lg-6
+
+                    .d-none.d-lg-block
+                        img(src= srcImagen, style="max-width: 100%").img-fluid
+
+mixin navTemaItem(numero, titulo, ruta)
+    li.list-group-item.nav-tema-item
+        .row.align-items-center
+            if numero == 'play'
+                .col-auto
+                    .avatar.avatar-sm
+                        span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 
+                            i.fa.fa-play
+            else if numero == 'question'
+                .col-auto
+                    .avatar.avatar-sm
+                        span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 
+                            i.fa.fa-question
+            else if numero == 'text'
+                .col-auto
+                    .avatar.avatar-sm
+                        span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 
+                            i.fa.fa-file-text-o
+            else
+                .col-auto
+                    .avatar.avatar-sm
+                        span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold= numero
+
+            .col.ml-n2
+                span.nav-tema-item__titulo 
+                    a(href= ruta)= titulo
+            .col-auto                                            
+                a(href= ruta).btn.btn-light.nav-tema-item__btn
+                    | Ver más
+
+mixin creditosFooter(ruta)
+    footer#Creditos.footer
+        .container
+
+            h1 Créditos               
+            .brand-line-primary
+
+            .row
+                .col-12.col-md-5
+                    h3.footer-subtitulo Contenido Instruccional
+
+                    p.footer-texto.mb-2
+                        | #[strong Gloria Matilde Lee Mejia	 ]<br/>   
+                        span.text-small Responsable del equipo
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Comercio y Servicios
+                        br
+                        span.text-small Regional Tolima
+
+
+                    p.footer-texto.mb-2
+                        | #[strong Rafael Nelftalí Lizcano Reyes]<br/>               
+                        span.text-small Asesor pedagógico<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                        br
+                        span.text-small Regional Santander    
+
+                    p.footer-texto.mb-2
+                        | #[strong Elizabeth Mena Rengifo]<br/>   
+                        span.text-small E-Pedagoga instruccional<br/>
+                        | #[strong Rachman Bustillo Martínez]<br/>
+                        span.text-small Evaluador de contenido<br/>
+                        | #[strong Erika Alejandra Beltrán Cuesta]<br/>                                              
+                        span.text-small Evaluadora de calidad instruccional<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Atención Sector Agropecuario
+                        br
+                        span.text-small Regional Risaralda
+
+                    p.footer-texto.mb-2
+                        | #[strong Alejandro Esteban Castillo Ruiz]<br/>   
+                        span.text-small Desarrollador de contenido<br/>
+                        | #[strong Martiza Paz Calderón]<br/>
+                        span.text-small Diseñadora instruccional<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de Diseño y Metrología
+                        br
+                        span.text-small Regional Distrito Capital
+  
+                .col-12.col-md-5
+
+                    h3.footer-subtitulo Diseño y desarrollo de recursos educativos digitales
+                    
+                    p.footer-texto
+                        | #[strong Francisco José Lizcano Reyes ]<br/>   
+                        span.text-small Responsable del equipo<br/>
+
+                    p.footer-texto
+                        | #[strong Luis Gabriel Urueta]<br/>   
+                        | #[strong Nelson Iván Vera Briceño]<br/>  
+                        | #[strong Eulises Orduz Amezquita]<br/>
+                        | #[strong Ernesto Navarro Jaimes]<br/>                                              
+                        span.text-small Diseño Web & Producción Audiovisual<br/>
+
+                    p.footer-texto
+                        | #[strong Edward Leonardo Pico Cabra]<br/>
+                        | #[strong Jhon Jairo Urueta Alvarez]<br/>     
+                        | #[strong Leyson Fabian Castaño Perez]<br/>    
+                        span.text-small Desarrollo Front-End<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                        br
+                        span.text-small Regional Santander                   
+
+                    h3.footer-subtitulo.mt-5 Gestores de repositorio
+                    
+                    p.footer-texto
+                        | #[strong Kely Alejandra Quiros Duarte ]<br/>   
+                        span.text-small Administrador repositorio de contenidos y gestores de repositorio.<br/>
+
+                    p.footer-texto
+                        span.text-small.text-uppercase Centro de comercio y servicios  
+                        br
+                        span.text-small Regional Tolima
+
+                .col-12.col-md-2  
+                    .d-flex.flex-column.justify-content-center
+                        img(src= ruta)
+
+    section#cc
+        .container
+            .d-flex.flex-column.flex-sm-row
+                span.pr-3
+                    i.icon.cc
+            
+                span
+                    | Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que
+                    | el trabajo original.

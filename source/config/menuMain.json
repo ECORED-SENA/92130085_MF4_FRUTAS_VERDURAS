@@ -1,0 +1,56 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "index.html"
+  },
+  {
+    "id":0,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "tecnicas",
+    "title": "1. Técnicas de conservación para productos derivados de frutas y hortalizas",
+    "breadcrumb": ["Inicio","Tecnicas"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas",
+        "title": "1.1. Factores importantes para la conservación de derivados de frutas y verduras",
+        "anchor": "factores"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas",
+        "title": "1.2. Almacenamiento en atmósferas controladas (EAC)",
+        "anchor": "almacenamiento"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas",
+        "title": "1.3. Envasado en Atmósferas modificadas (EAM)",
+        "anchor": "envasado"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tecnicas",
+        "title": "1.4. Envases para derivados de frutas y hortalizas",
+        "anchor": "envases"
+      }
+    ]   
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }
+]

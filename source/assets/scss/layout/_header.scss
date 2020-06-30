@@ -1,0 +1,124 @@
+.page-header {
+    padding: 2rem 1rem;
+    background: $brand-color-dark;
+    position: relative;
+
+    .barra-dots {
+        width: 240px;
+        max-width: 100%;
+    }
+
+}
+
+#page-home .page-header {
+    &::before {
+        content: '';
+        border-style: solid;
+        border-width:50px 50px 0px 50px;
+        border-color: $brand-color-dark transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -48px;
+        margin-top: -15px; 
+        z-index: 9;
+    }    
+}
+
+.page-header-textura{
+    .page-header {
+        background: url(../images/header/img1.png) scroll bottom center no-repeat $brand-color-dark !important;
+    }
+}
+
+.curso-subtitulo {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+.curso-descripcion {
+    color: $primary;
+    font-weight: normal;
+}
+
+.curso-imagen {
+    max-height: 350px;
+}
+
+.theme-dark {
+    .page-header {
+        background: url(../images/header/img1.png) scroll top center no-repeat $brand-color-dark !important;
+    }    
+    .curso-subtitulo,
+    .curso-titulo,
+    .curso-descripcion {
+        color: $text-color-dark !important;
+    }
+    
+}
+
+.theme-light {
+    .page-header {
+        background-color: $brand-color-light;
+    }    
+    .curso-subtitulo,
+    .curso-titulo,
+    .curso-descripcion {
+        color: $text-color-light !important;
+    }
+}
+
+.curso-titulo {
+    color: $text-color-dark !important;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.header-ecored {
+
+    margin: 3rem 0;
+    position: relative;
+
+    h1 {
+        font-size: 1.1*$h1-font-size;
+    }
+
+    h2 {
+        font-size: 1.2*$h2-font-size;
+    }
+
+    h3 {
+        font-size: 1.2*$h3-font-size;
+    }
+
+    h4 {
+        font-size: 1.2*$h4-font-size;
+    }
+
+    h5 {
+        font-size: 1.2*$h5-font-size;
+    }
+
+    h1,h2,h3,h4 {
+        color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-weight: 700;
+
+        span.number {
+            background-color: $base-color-highlight;
+            color: #fff;
+            width: 55px;
+            height: 55px;
+            margin-right: 1.5rem;
+            line-height: 55px;
+            text-align: center;
+        }
+    }
+}
+
+

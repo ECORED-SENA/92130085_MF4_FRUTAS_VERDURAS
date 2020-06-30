@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="958" height="487" viewBox="0 0 958 487">
+  <defs>
+    <filter id="Rectángulo_3340" x="0" y="0" width="468" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3365" x="0" y="257" width="468" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3366" x="490" y="257" width="468" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_3364" x="490" y="0" width="468" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_8524" data-name="Grupo 8524" transform="translate(-101 -781)">
+    <g transform="matrix(1, 0, 0, 1, 101, 781)" filter="url(#Rectángulo_3340)">
+      <rect id="Rectángulo_3340-2" data-name="Rectángulo 3340" width="450" height="212" rx="12" transform="translate(9 6)" fill="#80cbc4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 101, 781)" filter="url(#Rectángulo_3365)">
+      <rect id="Rectángulo_3365-2" data-name="Rectángulo 3365" width="450" height="212" rx="12" transform="translate(9 263)" fill="#80cbc4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 101, 781)" filter="url(#Rectángulo_3366)">
+      <rect id="Rectángulo_3366-2" data-name="Rectángulo 3366" width="450" height="212" rx="12" transform="translate(499 263)" fill="#80cbc4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 101, 781)" filter="url(#Rectángulo_3364)">
+      <rect id="Rectángulo_3364-2" data-name="Rectángulo 3364" width="450" height="212" rx="12" transform="translate(499 6)" fill="#80cbc4"/>
+    </g>
+    <text id="Almacenamiento_de_los_alimentos_en_una_atmósfera_diferente_a_la_composición_normal_del_aire." data-name="Almacenamiento de los alimentos en una atmósfera diferente a la composición normal del aire." transform="translate(204 858)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Almacenamiento de los alimentos en </tspan><tspan x="0" y="41">una atmósfera diferente a la </tspan><tspan x="0" y="65">composición normal del aire.</tspan></text>
+    <text id="Se_realiza_en_una_cámara_o_contenedor_aislado_impermeable_a_los_gases." data-name="Se realiza en una cámara o contenedor aislado impermeable a los gases." transform="translate(183 1091)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Se realiza en una cámara o contenedor </tspan><tspan x="0" y="41">aislado impermeable a los gases.</tspan></text>
+    <text id="Los_componentes_de_la_atmósfera_oxígeno_dióxido_de_carbono_y_nitrógeno_se_ajustan_a_las_concentraciones_precisas_requeridas" data-name="Los componentes de la atmósfera (oxígeno, dióxido de carbono y nitrógeno) se ajustan a las concentraciones precisas requeridas" transform="translate(709 858)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Los componentes de la atmósfera </tspan><tspan x="0" y="41">(oxígeno, dióxido de carbono y </tspan><tspan x="0" y="65">nitrógeno) se ajustan a las </tspan><tspan x="0" y="89">concentraciones precisas requeridas</tspan></text>
+    <text id="Se_debe_complementar_con_un_adecuado_control_de_temperatura_y_humedad_relativa." data-name="Se debe complementar con un adecuado control de temperatura y humedad relativa." transform="translate(674 1091)" fill="#00223d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Se debe complementar con un </tspan><tspan x="0" y="41">adecuado control de temperatura y </tspan><tspan x="0" y="65">humedad relativa.</tspan></text>
+    <ellipse id="Elipse_670" data-name="Elipse 670" cx="104" cy="105.5" rx="104" ry="105.5" transform="translate(466 904)" fill="#fff"/>
+    <text id="Almacenamiento_en_atmósferas_controladas_EAC_" data-name="Almacenamiento en atmósferas controladas (EAC) " transform="translate(487 970)" fill="#00223d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="3.652" y="17">Almacenamiento en </tspan><tspan x="38.645" y="39">atmósferas </tspan><tspan x="13.875" y="61">controladas (EAC) </tspan></text>
+  </g>
+</svg>

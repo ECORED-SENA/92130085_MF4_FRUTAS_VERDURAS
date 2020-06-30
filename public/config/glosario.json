@@ -1,0 +1,72 @@
+[
+  {
+    "letter": "A",
+    "terms": [
+      {
+        "title": "Antiséptico",
+        "desciption": "Que previene la posibilidad de infecciones destruyendo los microorganismos causantes."
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "terms": [
+      {
+        "title": "Coextrusión",
+        "desciption": "Técnica de extrusión mediante la cual se “unen” dos o más materiales plásticos con características diferentes en una configuración determinada."        
+      },
+      {
+        "title": "Corrosión",
+        "desciption": "Desgaste paulatino de cuerpos metálicos por acción de agentes externos."        
+      }
+    ]
+  }, 
+  {
+    "letter": "E",
+    "terms": [
+      {
+        "title": "Espora",
+        "desciption": "Forma resistente que adoptan las bacterias cuando las condiciones ambientales son desfavorables."
+      },
+      {
+        "title": "Estibar",
+        "desciption": "Distribuir adecuadamente los productos para que ocupen el menor espacio posible."
+      },
+      {
+        "title": "Etileno",
+        "desciption": "Regulador natural del crecimiento sintetizado por las mismas plantas que contribuye a acelerar la maduración."
+      },
+      {
+        "title": "Extrusión",
+        "desciption": "Proceso industrial donde por flujo continuo con presión y empuje se hace pasar el plástico fundido por un molde que le da la forma deseada."
+      }
+    ]
+  },
+  {
+    "letter": "H",
+    "terms": [
+      {
+        "title": "Hermeticidad",
+        "desciption": "Capacidad de cerrarse de forma tal que no permite el paso del aire u otros gases o sustancias."
+      }
+    ]
+  },  
+  {
+    "letter": "I",
+    "terms": [
+      {
+        "title": "Impermeabilidad",
+        "desciption": "Capacidad de no permitir el paso de agua u otro fluido."
+      }
+    ] 
+  },  
+  {
+    "letter": "P",
+    "terms": [
+      {
+        "title": "Permeación",
+        "desciption": "Proceso mediante el cual un producto químico peligroso atraviesa un material a nivel molecular."
+      }
+    ]
+  }
+]
