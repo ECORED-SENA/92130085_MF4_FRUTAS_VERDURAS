@@ -2,12 +2,12 @@
   {
     "icon": "fa fa-home",
     "slug": "external",
-    "title": "Volver al Inicio",
+    "title": "Volver al inicio",
     "path": "index.html"
   },
   {
     "id":0,
-    "icon": "fa fa-play-circle",
+    "icon": "fa fa-file-text",
     "slug": "introduccion",
     "title": "Introducción",
     "breadcrumb": ["Inicio","Introducción"],
